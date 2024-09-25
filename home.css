@@ -1,0 +1,201 @@
+/*code referenced from for perfect background image: https://css-tricks.com/perfect-full-page-background-image/*/
+#home { 
+  background: url(https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logout { 
+  background: url(https://images.unsplash.com/photo-1537420327992-d6e192287183?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#successbg{
+  background: url(https://images.unsplash.com/photo-1446822775955-c34f483b410b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#failurebg{
+  background: url(https://images.unsplash.com/photo-1501691223387-dd0500403074?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.message {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    text-shadow: 1px 1px 5px black;
+    overflow-wrap: break-word;
+    animation: fadeinanimation 0.5s ease-in forwards;
+}
+
+#homepage{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.filelist{
+  padding-left: 100px;
+  padding-right: 30px;
+  word-break: break-all;
+  text-align: left;
+}
+
+/*referenced for positioning and flex: https://coder-coder.com/display-divs-side-by-side/*/
+/*referenced for justify-content: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content*/
+#container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#viewfiles, #uploadfiles {
+  height: 425px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden;
+}
+
+#uploadfiles{
+  width: 47%;
+}
+
+#viewfiles{
+  width: 47%;
+  display: inline-block;
+}
+
+/*referenced w3schools for .submitbutton & hover animation: https://www.w3schools.com/css/css3_buttons.asp*/
+.submitbutton {
+  display: inline-block;
+  background-color: #2c7aae;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #EEF7FF;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  text-decoration: none;
+  border: none;
+}
+
+.submitbutton:hover {
+  background-color: #206597;
+
+}
+
+#cancelbutton{
+  background-color: #667279;
+  display: inline-block;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #EEF7FF;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  width: 200px;
+  text-decoration: none;
+  border: none;
+}
+
+#cancelbutton:hover {
+  background-color: #38404e;
+}
+
+#buttoncontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/*referenced for centering button: https://www.codeguage.com/courses/css/transformations-translation#:~:text=translateX(%2D50%25)%20moves,to%20overlap%20with%20one%20another.*/
+.homebutton{
+  position: absolute;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
+
+.pagetitle{
+  color: #ffffff;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.formlabels{
+  color: #ffffff;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+#left-text{
+  text-align: left;
+}
+
+.linkedtext{
+  color: #84bade;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.testing{
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #84bade;
+  cursor: pointer;
+}
+
+/*referenced for how to style upload file button: https://developer.mozilla.org/en-US/docs/Web/CSS/::file-selector-button*/
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #206597;
+}
+
+/*referenced for fade in animation: https://www.youtube.com/watch?v=xZZHuQYaQew*/
+.fadein {  
+  animation: fadeinanimation 1s ease-in forwards;
+}
+
+@keyframes fadeinanimation {
+  from{
+      opacity: 0%;
+  }
+  to{
+      opacity: 100%;
+  }
+}
+
+.upload-button-image{
+  width: 80%;
+  cursor: pointer;
+}
+
+.upload-button-image:hover {
+  background-color: rgba(0,0,0, 0.5);
+}
