@@ -1,12 +1,12 @@
 # CSE330 - File Sharing Site
-> Welcome to my file-sharing project! This project was built using Apache, and the **link below** will take you directly to the site (you'll need to input one of the existing usernames to access the homepage). To view the code in detail, visit the **File-Sharing-Code folder!**
+> Welcome to my file-sharing project! This project was built using Apache, and the **link below** will take you directly to the site (you'll need to input one of the existing usernames to access the homepage). To view the code in detail, visit the **File-Sharing-Code folder!** <br>
 
-**Languages:** PHP, HTML, CSS
-**Technologies/Frameworks:** Apache, Amazon AWS (EC2), SSH
+**Languages:** PHP, HTML, CSS <br>
+**Technologies/Frameworks:** Apache, Amazon AWS (EC2), SSH <br>
 
-**Link to file sharing site:** http://ec2-18-222-136-197.us-east-2.compute.amazonaws.com/~lilyrsun/module2/module2-group-module2-520806/filesharing/index.php?error=true
+**Link to file sharing site:** http://ec2-18-222-136-197.us-east-2.compute.amazonaws.com/~lilyrsun/module2/module2-group-module2-520806/filesharing/index.php?error=true <br>
 
-**Username Information**: Feel free to use either **_lilysun_**, **_jingtaosun_**, or **_yidinglei_** as a username.
+**Username Information**: Feel free to use either **_lilysun_**, **_jingtaosun_**, or **_yidinglei_** as a username. <br>
 
 ****
 ### Site Functionality
