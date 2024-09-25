@@ -4,7 +4,7 @@
 **Languages:** PHP, HTML, CSS
 **Technologies/Frameworks:** Apache, Amazon AWS (EC2), SSH
 
-**Link to file sharing site:** <a href="[placeholder.com](http://ec2-18-222-136-197.us-east-2.compute.amazonaws.com/~lilyrsun/module2/module2-group-module2-520806/filesharing/index.php?error=true)" target="_blank">http://ec2-18-222-136-197.us-east-2.compute.amazonaws.com/~lilyrsun/module2/module2-group-module2-520806/filesharing/index.php?error=true</a>
+**Link to file sharing site:** http://ec2-18-222-136-197.us-east-2.compute.amazonaws.com/~lilyrsun/module2/module2-group-module2-520806/filesharing/index.php?error=true
 
 **Username Information**: Feel free to use either **_lilysun_**, **_jingtaosun_**, or **_yidinglei_** as a username.
 
